@@ -1,0 +1,56 @@
+/* Blog Post Card */
+.blog-post-card {
+    width: 300px; /* Set width */
+    background-color: white; /* White background */
+    border-radius: 10px; /* Non-zero rounded corners */
+    text-align: center; /* Align text */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    overflow: hidden;
+}
+
+/* Post Image */
+.post-img {
+    width: 100%; /* Fill the card width */
+    height: auto;
+    border-bottom: 2px solid #ddd; /* Border bottom */
+}
+
+/* Post Content */
+.post-content {
+    padding: 20px; /* Add padding */
+}
+
+/* Post Title */
+.post-title {
+    margin: 10px 0;
+    color: #333; /* Custom text color */
+    font-size: 1.5em;
+}
+
+/* Post Excerpt */
+.post-excerpt {
+    margin: 10px 0;
+    color: #666; /* Custom text color */
+    font-size: 1em;
+}
+
+/* Read More Button */
+.read-more {
+    display: inline-block; /* Set display */
+    background-color: #007BFF; /* Set background color */
+    color: white; /* Set text color */
+    padding: 10px 15px; /* Set padding */
+    margin-top: 15px; /* Set margin */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Read More Hover Effect */
+.read-more:hover {
+    background-color: #0056b3; /* Change color on hover */
+}
+
+
+** end of undefined **
+
